@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background-color: grey;
+}
+.container{
+	width: 30%;
+	height: 15em;
+	background-color: skyblue;
+	margin: auto;
+	padding: 2em;
+
+
+}
+label{
+	display: block;
+}
+
+input{
+	width: 20em;
+	height: 2em;
+	border-radius: 20px;
+	border: none;
+}
+
+.form_group input:last-child{
+	width: 10em;
+	height: 2em;
+	background-color: green;
+	margin-left: 5em;
+}
